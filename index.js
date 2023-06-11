@@ -25,6 +25,7 @@ async function name() {
   res.send(final)
   console.log(final);
   console.log("AFTER FETCH");
+  name();
 }
 })
-name();
+
